@@ -6,7 +6,7 @@
 
 # PULSAR-LABOR
 
-### Legal jobs and activity-based income
+### Legal and illegal side hustle income activities
 
 <br/>
 
@@ -23,7 +23,7 @@
 
 ## Overview
 
-Legal labor and activity-based income system for Pulsar Framework. Covers civilian jobs such as fishing, lumberjacking, mining, and other configurable gather-and-sell activities with shared economy hooks.
+Activity-based income system for Pulsar Framework covering both legal hustles (fishing, hunting, farming) and illegal operations (coke runs, oxy runs, house robberies, weed, dumpster diving). Each activity is independently configurable.
 
 ---
 
