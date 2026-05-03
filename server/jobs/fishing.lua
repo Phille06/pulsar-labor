@@ -44,7 +44,7 @@ AddEventHandler("Labor:Server:Startup", function()
 								end
 							end
 
-							if exports.ox_inventory:ItemsHas(char:GetData("SID"), 1, _fishingZoneBasicBait[data.zone], 1) then
+							if exports.ox_inventory:ItemsHas(char:GetData("SID"), _fishingZoneBasicBait[data.zone], 1) then
 								exports.ox_inventory:Remove(char:GetData("SID"), 1,
 									_fishingZoneBasicBait[data.zone], 1)
 							end

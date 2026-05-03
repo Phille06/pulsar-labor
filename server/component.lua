@@ -401,7 +401,7 @@ exports('CreateWorkgroup', function(source)
 
     local name = { First = char:GetData("First"), Last = char:GetData("Last") }
 
-    if exports.ox_inventory:ItemsHas(char:GetData("SID"), 1, 'vpn', 1) then
+    if exports.ox_inventory:ItemsHas(char:GetData("SID"), 'vpn', 1) then
       local vpn = exports.ox_inventory:ItemsGetFirst(char:GetData("SID"), "vpn", 1)
       local vpnName = vpn.MetaData.VpnName
       if type(vpnName) == "string" then
@@ -494,7 +494,7 @@ exports('JoinWorkgroup', function(creator, source)
 
           local name = { First = char:GetData("First"), Last = char:GetData("Last") }
 
-          if exports.ox_inventory:ItemsHas(char:GetData("SID"), 1, 'vpn', 1) then
+          if exports.ox_inventory:ItemsHas(char:GetData("SID"), 'vpn', 1) then
             local vpn = exports.ox_inventory:ItemsGetFirst(char:GetData("SID"), "vpn", 1)
             local vpnName = vpn.MetaData.VpnName
             if type(vpnName) == "string" then
@@ -570,7 +570,7 @@ exports('RequestWorkgroup', function(group, source)
 
             local name = { First = char:GetData("First"), Last = char:GetData("Last") }
 
-            if exports.ox_inventory:ItemsHas(char:GetData("SID"), 1, 'vpn', 1) then
+            if exports.ox_inventory:ItemsHas(char:GetData("SID"), 'vpn', 1) then
               local vpn = exports.ox_inventory:ItemsGetFirst(char:GetData("SID"), "vpn", 1)
               local vpnName = vpn.MetaData.VpnName
               if type(vpnName) == "string" then
